@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import App from "./components/App.js";
+import App from "../components/App.js";
 
 import "./styles.css"
 
@@ -9,7 +9,7 @@ document.addEventListener( "DOMContentLoaded", () => {
 
   if (reactNode ) {
     ReactDOM.render(
-      <h1>Hello from index.js!</h1>
+      <App />
       , reactNode
     )
   }
