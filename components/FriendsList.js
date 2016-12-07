@@ -3,7 +3,7 @@ import Friend from "./Friend.js";
 import friends from "../friends.js";
 
 class FriendsList extends React.Component {
-    //This function is constructing the props for this component.
+    //This function is constructing the props for this component. It initializes state, so that there's something there. Not necessary if we aren't going to bother initializing state or bind methods to a state property.
     constructor(props) {
       //As I understand, super is basically assigning the this keyword to props, so we can change the state.
       super(props);

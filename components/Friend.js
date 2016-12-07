@@ -20,7 +20,7 @@ class Friend extends React.Component {
         </div>
 
         <div className="num-friends">
-            Friends: {this.props.friendCount}}
+            Friends: {this.props.friendCount}
         </div>
 </li>
     )
